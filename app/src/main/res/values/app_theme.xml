@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PartnerTheme" parent="Theme.AppCompat.Light">
+        <item name="CTSingleCarWrapper">@style/CTSingleCarWrapper</item>
+        <item name="CTSingleCarTitle">@style/TextAppearance.AppCompat.Title</item>
+        <item name="CTSingleCarSubtitle">@style/TextAppearance.AppCompat.Body1</item>
+
+        <item name="CTSingleCarAddedWrapper">@style/CTSingleCarWrapper</item>
+        <item name="CTSingleCarAddedText">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="CTSingleCarWrapper">
+        <item name="android:background">#FFF</item>
+    </style>
+</resources>

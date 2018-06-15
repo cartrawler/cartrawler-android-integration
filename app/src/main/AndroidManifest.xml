@@ -1,5 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cartrawler.integration">
 
-    <application />
+    <application>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/PartnerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cartrawler.core.base.CartrawlerActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/YourThemeExtendingCTAppTheme" />
+
+    </application>
+
 </manifest>

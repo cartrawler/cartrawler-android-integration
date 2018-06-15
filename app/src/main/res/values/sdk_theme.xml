@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="YourThemeExtendingCTAppTheme" parent="CTAppTheme">
+        <item name="colorPrimary">#039be5</item>
+        <item name="CTPrimaryColor">#039be5</item>
+        <item name="colorPrimaryDark">#FF01579B</item>
+        <item name="CTSecondaryColor">#FF01579B</item>
+        <item name="colorAccent">#FF2E7D32</item>
+        <item name="CTAccentColor">#FF2E7D32</item>
+    </style>
+</resources>
